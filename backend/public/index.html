@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrackNow - Trusted Parcel Tracking</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo-title">
+        <img src="assets/logo.png" class="logo" alt="TrackNow Logo" />
+        <h1>TrackNow</h1>
+      </div>
+      <nav>
+        <a href="#tracker">Track Parcel</a>
+        <a href="#register">Register</a>
+        <a href="#trust">Why Trust Us?</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="tracker" class="banner">
+      <div class="overlay">
+        <h2>Track Your Parcel</h2>
+        <form id="trackForm">
+          <input type="text" id="trackingId" placeholder="Enter Tracking ID" required />
+          <button type="submit">Track</button>
+        </form>
+        <div id="result"></div>
+      </div>
+    </section>
+
+    <section id="register" class="card-section">
+      <h2>Register</h2>
+      <form id="registerForm">
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit">Register</button>
+      </form>
+    </section>
+    <section id="trust" class="features">
+      <h2>Why Trust TrackNow?</h2>
+      <ul>
+        <li>🔒 SSL Secured Platform</li>
+        <li>✅ Real-Time Parcel Tracking</li>
+        <li>🌐 Used by 1000+ logistics companies</li>
+        <li>📞 24/7 Customer Support</li>
+      </ul>
+    </section>
+
+    <section id="reviews" class="reviews">
+      <h2>User Reviews</h2>
+      <blockquote>"Super accurate and fast service!" — ⭐⭐⭐⭐⭐</blockquote>
+      <blockquote>"Best tracking tool I've used so far." — ⭐⭐⭐⭐☆</blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 TrackNow Logistics. All rights reserved.</p>
+    <p>Contact: support@tracknow.com | Phone: +91 99999 88888</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

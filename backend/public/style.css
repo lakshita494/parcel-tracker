@@ -1,0 +1,129 @@
+/* General Reset & Body Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('assets/banner.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-size: 18px; /* Increased base size */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.navbar h1 {
+  font-size: 28px;
+  color: #fff;
+}
+
+nav a {
+  margin-left: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections Styling */
+main section {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 40px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+.banner h2,
+#register h2,
+#trust h2,
+#reviews h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 420px;
+  margin: auto;
+}
+
+input, button {
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+}
+
+input {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ffd633;
+}
+
+/* Features Section */
+.features ul {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+/* Reviews */
+.reviews blockquote {
+  font-size: 20px;
+  font-style: italic;
+  margin: 12px 0;
+  padding-left: 20px;
+  border-left: 4px solid #ffcc00;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 24px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  margin-top: 30px;
+}
